@@ -1,8 +1,8 @@
-### hello 
+### quit 
 
 #### Qt class list:
 - QPushButton
 
 #### reference: 
-- Linux.Windows.Programming.With.Qt4/chap01/hello
+- Cpp.GUI.Programming.with.Qt4/chap01/quit
 

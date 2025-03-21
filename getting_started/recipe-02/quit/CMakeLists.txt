@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(hello VERSION 0.1 LANGUAGES CXX)
+project(quit VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -15,22 +15,22 @@ find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
 
 set(PROJECT_SOURCES
-        hello.cpp
+        quit.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-    qt_add_executable(hello
+    qt_add_executable(quit
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
     )
 else()
-    add_executable(hello
+    add_executable(quit
         ${PROJECT_SOURCES}
     )
 endif()
 
-target_link_libraries(hello PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(quit PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
 if(QT_VERSION_MAJOR EQUAL 6)
-    qt_finalize_executable(hello)
+    qt_finalize_executable(quit)
 endif()

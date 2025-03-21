@@ -1,8 +1,10 @@
-### example1
+### quit 
 
 #### Qt class list:
-- QPushButton
+- QWidget 
+- QSpinBox 
+- QSlider
 
 #### reference: 
-- Design.Patterns.in.Cpp.with.Qt/src/early-examples/example1
+- Cpp.GUI.Programming.with.Qt4/chap01/age
 
