@@ -3,6 +3,8 @@
 #include <QInputDialog>
 #include <QMessageBox>
 
+using Qt::endl;
+
 int main (int argc, char* argv[]) {                 /* Start
         of function "main" which returns int. */
     QApplication app(argc, argv);                   /* Start of
@@ -21,7 +23,7 @@ int main (int argc, char* argv[]) {                 /* Start
         factArg = QInputDialog::getInt(0, "Factorial Calculator",
             "Factorial of:", 1);                    /* Pop up dialog,
              wait for user to enter an integer, return it. */
-        cout << "User entered: " << factArg << Qt::endl;
+        cout << "User entered: " << factArg << endl;
         int i=2;
         while (i <= factArg) {
             fact = fact * i;
