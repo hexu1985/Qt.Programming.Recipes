@@ -1,10 +1,7 @@
 ### example1
 
 #### Qt class list:
-- QTextStream
-- QInputDialog
-- QMessageBox
-- QString
+- QLabel
 
 #### reference: 
-- Design.Patterns.in.Cpp.with.Qt/src/early-examples/example1
+- Cpp.GUI.Programming.with.Qt4/chap01/hello
