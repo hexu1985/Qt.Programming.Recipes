@@ -1,4 +1,4 @@
-### example1
+### find
 
 #### Qt class list:
 - QDialog
