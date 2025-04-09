@@ -16,3 +16,14 @@
 - [编写一个Hello Wolrd程序](widgets_and_designer/recipe-01)
 - [GUI程序结构与运行机制](widgets_and_designer/recipe-02)
 - [可视化UI设计](widgets_and_designer/recipe-03)
+
+
+### Ubuntu24.04 apt 安装 Qt6
+
+```bash
+$ sudo apt update
+$ sudo apt install qt6-base-dev qt6-tools-dev qt6-declarative-dev qtcreator
+$ qmake6 --version
+QMake version 3.1
+Using Qt version 6.4.2 in /usr/lib/x86_64-linux-gnu
+```
