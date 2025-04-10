@@ -18,6 +18,7 @@
 - [可视化UI设计](widgets_and_designer/recipe-03)
 - [快速设计对话框](widgets_and_designer/recipe-04)
 - [改变形状的对话框](widgets_and_designer/recipe-05)
+- [动态加载UI](widgets_and_designer/recipe-06)
 
 
 ### Ubuntu24.04 apt 安装 Qt6
