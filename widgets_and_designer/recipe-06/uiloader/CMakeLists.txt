@@ -11,8 +11,8 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
-find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets REQUIRED)
+find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets UiTools REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets UiTools REQUIRED)
 
 set(PROJECT_SOURCES
     mywidget.cpp
@@ -34,7 +34,7 @@ else()
     )
 endif()
 
-target_link_libraries(uiloader PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(uiloader PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::UiTools)
 
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(uiloader)
