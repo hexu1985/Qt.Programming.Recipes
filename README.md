@@ -16,6 +16,8 @@
 - [编写一个Hello Wolrd程序](widgets_and_designer/recipe-01)
 - [GUI程序结构与运行机制](widgets_and_designer/recipe-02)
 - [可视化UI设计](widgets_and_designer/recipe-03)
+- [快速设计对话框](widgets_and_designer/recipe-04)
+- [改变形状的对话框](widgets_and_designer/recipe-05)
 
 
 ### Ubuntu24.04 apt 安装 Qt6
