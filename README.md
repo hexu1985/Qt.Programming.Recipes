@@ -35,7 +35,7 @@ Using Qt version 6.4.2 in /usr/lib/x86_64-linux-gnu
 
 ```bash
 $ sudo apt update
-$ sudo apt install qtbase5-dev qt5-qmake qtbase5-dev-tools qttools5-dev-tools
+$ sudo apt install qtbase5-dev qt5-qmake qtbase5-dev-tools qttools5-dev-tools qttools5-dev
 $ qmake --version
 QMake version 3.1
 Using Qt version 5.15.3 in /usr/lib/x86_64-linux-gnu
