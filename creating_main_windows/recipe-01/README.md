@@ -2,11 +2,17 @@
 
 #### Qt class list:
 - QMainWindow
-- QTextCodec
 - QMenu
-- QToolBar 
 - QAction
+- QMenuBar
+- QMessageBox
+- QApplication
+- QFileDialog
+- QToolBar
+- QDockWidget
+- QListWidget
 - QTextEdit
+- QStatusBar
 
 #### reference: 
-- Linux.GUI.Programming.With.Qt4/chap04/mainwindow
+- Qt5.Programming.Guide/ch3/6_MainWindow/MainWindow

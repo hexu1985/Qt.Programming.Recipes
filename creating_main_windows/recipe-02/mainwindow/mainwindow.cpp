@@ -2,7 +2,7 @@
 
 #include <QMenuBar>
 
-// 主窗口实现
+
 MainWindow::MainWindow()
 {
     setWindowTitle(tr("Doc"));
@@ -19,46 +19,46 @@ MainWindow::createActions()
 {
 	
     // file open action
-    fileOpenAction = new QAction(QIcon(":/images/open.png"),tr("Open"),this);	// 打开文件
+    fileOpenAction = new QAction(QIcon(":/images/open.png"),tr("Open"),this);
     fileOpenAction->setShortcut(tr("Ctrl+O"));
     fileOpenAction->setStatusTip(tr("open a file"));
     connect(fileOpenAction,SIGNAL(triggered()),this,SLOT(slotOpenFile()));
 
     
     // file new action
-    fileNewAction = new QAction(QIcon(":/images/new.png"),tr("New"),this);	// 新建文件
+    fileNewAction = new QAction(QIcon(":/images/new.png"),tr("New"),this);
     fileNewAction->setShortcut(tr("Ctrl+N"));
     fileNewAction->setStatusTip(tr("new file"));
     connect(fileNewAction,SIGNAL(triggered()),this,SLOT(slotNewFile()));
 
     // save file action
-    fileSaveAction = new QAction(QPixmap(":/images/save.png"),tr("Save"),this);	// 保存文件 
+    fileSaveAction = new QAction(QPixmap(":/images/save.png"),tr("Save"),this);
     fileSaveAction->setShortcut(tr("Ctrl+S"));
     fileSaveAction->setStatusTip(tr("save file"));
     connect(fileSaveAction,SIGNAL(activated()),this,SLOT(slotSaveFile()));
 
     // exit action
-    exitAction = new QAction(tr("Exit"), this);	// 退出
+    exitAction = new QAction(tr("Exit"), this);
     exitAction->setShortcut(tr("Ctrl+Q"));
     exitAction->setStatusTip(tr("exit"));
     connect(exitAction, SIGNAL(triggered()), this, SLOT(close()));
 
-    cutAction = new QAction(QIcon(":/images/cut.png"), tr("Cut"), this);		// 剪切
+    cutAction = new QAction(QIcon(":/images/cut.png"), tr("Cut"), this);
     cutAction->setShortcut(tr("Ctrl+X"));
     cutAction->setStatusTip(tr("cut to clipboard"));
     connect(cutAction, SIGNAL(triggered()), text, SLOT(cut()));
 
-    copyAction = new QAction(QIcon(":/images/copy.png"), tr("Copy"), this);		// 复制
+    copyAction = new QAction(QIcon(":/images/copy.png"), tr("Copy"), this);
     copyAction->setShortcut(tr("Ctrl+C"));
     copyAction->setStatusTip(tr("copy to clipboard"));
     connect(copyAction, SIGNAL(triggered()), text, SLOT(copy()));
 
-    pasteAction = new QAction(QIcon(":/images/paste.png"), tr("Paste"), this);		// 粘贴
+    pasteAction = new QAction(QIcon(":/images/paste.png"), tr("Paste"), this);
     pasteAction->setShortcut(tr("Ctrl+V"));
     pasteAction->setStatusTip(tr("paste clipboard to selection"));
     connect(pasteAction, SIGNAL(triggered()), text, SLOT(paste()));
 
-    aboutAction = new QAction(tr("About"), this);		// 关于
+    aboutAction = new QAction(tr("About"), this);
     connect(aboutAction, SIGNAL(triggered()), this, SLOT(slotAbout()));
 }
 

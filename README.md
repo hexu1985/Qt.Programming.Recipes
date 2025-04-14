@@ -20,6 +20,10 @@
 - [改变形状的对话框](widgets_and_designer/recipe-05)
 - [动态加载UI](widgets_and_designer/recipe-06)
 
+### [创建主窗口](creating_main_windows)
+- [基本QMainWindow主窗口程序1](creating_main_windows/recipe-01)
+- [基本QMainWindow主窗口程序2](creating_main_windows/recipe-02)
+- [基本QMainWindow主窗口程序3](creating_main_windows/recipe-03)
 
 ### Ubuntu24.04 apt 安装 Qt6
 
