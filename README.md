@@ -24,6 +24,7 @@
 - [基本QMainWindow主窗口程序1](creating_main_windows/recipe-01)
 - [基本QMainWindow主窗口程序2](creating_main_windows/recipe-02)
 - [基本QMainWindow主窗口程序3](creating_main_windows/recipe-03)
+- [QAction, QMenu和QMenuBar](creating_main_windows/recipe-04)
 
 ### Ubuntu24.04 apt 安装 Qt6
 
