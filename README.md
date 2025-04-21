@@ -21,6 +21,10 @@
 - [子类化QMainWindow](creating_main_windows/subclassing_qmainwindow)
 - [简单记事本程序](creating_main_windows/notebook)
 
+### [布局管理](layout_management)
+- [窗件的布局](layout_management/layout_of_widgets)
+
+
 ### Ubuntu24.04 apt 安装 Qt6
 
 ```bash
