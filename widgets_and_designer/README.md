@@ -1,10 +1,6 @@
 ## 窗件和设计师
 
-- [编写一个Hello Wolrd程序](recipe-01)
-- [GUI程序结构与运行机制](recipe-02)
-- [可视化UI设计](recipe-03)
-- [快速设计对话框](recipe-04)
-- [改变形状的对话框](recipe-05)
-- [动态加载UI](recipe-06)
+- [设计师简介](designer_introduction)
+- [设计师和代码的集成](designer_integration_with_code)
 
 
