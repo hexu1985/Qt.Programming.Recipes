@@ -17,6 +17,10 @@
 - [改变形状的对话框](creating_dialogs/shape_changing_dialogs)
 - [动态对话框](creating_dialogs/dynamic_dialogs)
 
+### [创建自定义窗口部件](creating_custom_widgets)
+- [自定义Qt窗口部件](creating_custom_widgets/customizing_qt_widgets)
+- [子类化QWidgets](creating_custom_widgets/subclassing_qwidget)
+
 ### [创建主窗口](creating_main_windows)
 - [子类化QMainWindow](creating_main_windows/subclassing_qmainwindow)
 - [停靠窗口和工具栏](creating_main_windows/dock_windows_and_toolbars)
@@ -25,6 +29,7 @@
 ### [布局管理](layout_management)
 - [窗件的布局](layout_management/layout_of_widgets)
 - [分组布局](layout_management/stacked_layouts)
+- [切分窗口](layout_management/splitters)
 
 
 ### Ubuntu24.04 apt 安装 Qt6

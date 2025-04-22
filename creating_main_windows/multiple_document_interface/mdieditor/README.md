@@ -1,2 +1,2 @@
 ### reference
-- Design.Patterns.in.Cpp.with.Qt/src/widgets/mainwindow
+- Cpp.GUI.Programming.with.Qt4/chap06/mdieditor
