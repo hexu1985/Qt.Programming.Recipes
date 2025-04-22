@@ -7,19 +7,20 @@
 - [建立连接](getting_started/making_connections)
 - [窗口部件的布局](getting_started/laying_out_widgets)
 
+### [窗件和设计师](widgets_and_designer)
+- [设计师简介](widgets_and_designer/designer_introduction)
+- [设计师和代码的集成](widgets_and_designer/designer_integration_with_code)
+
 ### [创建对话框](creating_dialogs)
 - [子类化QDialog](creating_dialogs/subclassing_qdialog)
 - [快速设计对话框](creating_dialogs/rapid_dialog_design)
 - [改变形状的对话框](creating_dialogs/shape_changing_dialogs)
 - [动态对话框](creating_dialogs/dynamic_dialogs)
 
-### [窗件和设计师](widgets_and_designer)
-- [设计师简介](widgets_and_designer/designer_introduction)
-- [设计师和代码的集成](widgets_and_designer/designer_integration_with_code)
-
 ### [创建主窗口](creating_main_windows)
 - [子类化QMainWindow](creating_main_windows/subclassing_qmainwindow)
-- [简单记事本程序](creating_main_windows/notebook)
+- [停靠窗口和工具栏](creating_main_windows/dock_windows_and_toolbars)
+- [多文档界面](creating_main_windows/multiple_document_interface)
 
 ### [布局管理](layout_management)
 - [窗件的布局](layout_management/layout_of_widgets)
