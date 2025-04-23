@@ -31,6 +31,9 @@
 - [分组布局](layout_management/stacked_layouts)
 - [切分窗口](layout_management/splitters)
 
+### [事件处理](event_processing)
+- [重新实现事件处理器](event_processing/reimplementing_event_handlers)
+
 
 ### Ubuntu24.04 apt 安装 Qt6
 
