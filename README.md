@@ -15,7 +15,6 @@
 - [子类化QDialog](creating_dialogs/subclassing_qdialog)
 - [快速设计对话框](creating_dialogs/rapid_dialog_design)
 - [改变形状的对话框](creating_dialogs/shape_changing_dialogs)
-- [动态对话框](creating_dialogs/dynamic_dialogs)
 
 ### [创建自定义窗口部件](creating_custom_widgets)
 - [自定义Qt窗口部件](creating_custom_widgets/customizing_qt_widgets)
@@ -33,7 +32,8 @@
 
 ### [事件处理](event_processing)
 - [重新实现事件处理器](event_processing/reimplementing_event_handlers)
-- [获取鼠标事件](event_processing/processing_mouse_event)
+- [处理鼠标事件](event_processing/processing_mouse_event)
+- [处理键盘事件](event_processing/processing_keyboard_event)
 
 
 ### Ubuntu24.04 apt 安装 Qt6
