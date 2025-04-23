@@ -33,6 +33,7 @@
 
 ### [事件处理](event_processing)
 - [重新实现事件处理器](event_processing/reimplementing_event_handlers)
+- [获取鼠标事件](event_processing/processing_mouse_event)
 
 
 ### Ubuntu24.04 apt 安装 Qt6

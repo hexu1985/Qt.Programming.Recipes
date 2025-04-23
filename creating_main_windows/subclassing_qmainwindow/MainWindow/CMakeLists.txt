@@ -18,7 +18,7 @@ set(PROJECT_SOURCES
     mainwindow.cpp
     mainwindow.h
     main.cpp
-    mainwindow.qrc
+    resources.qrc
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
