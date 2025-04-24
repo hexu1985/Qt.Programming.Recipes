@@ -36,6 +36,9 @@
 - [处理键盘事件](event_processing/processing_keyboard_event)
 - [安装事件过滤器](event_processing/installing_event_filters)
 
+### [二维图形](2d_graphics)
+- [用QPainter绘图](2d_graphics/painting_with_qpainter)
+
 
 ### Ubuntu24.04 apt 安装 Qt6
 
