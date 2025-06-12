@@ -23,6 +23,7 @@
 - [显示窗口部件](built_in_widgets/display_widgets)
 - [输入窗口部件](built_in_widgets/input_widgets)
 - [辅助窗口部件](built_in_widgets/utility_widgets)
+- [项视图窗口部件](built_in_widgets/item_view_widgets)
 
 ### [创建自定义窗口部件](creating_custom_widgets)
 - [自定义Qt窗口部件](creating_custom_widgets/customizing_qt_widgets)
