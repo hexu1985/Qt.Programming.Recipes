@@ -20,7 +20,7 @@ Widget::Widget(QWidget *parent)
 
         non_exclusive[i] = new QCheckBox(str2[i], this);
         non_exclusive[i]->setGeometry(xpos + 120, ypos, 100, 30);
-        chk_group[1]->addButton(exclusive[i]);
+        chk_group[1]->addButton(non_exclusive[i]);
 
         connect(exclusive[i], SIGNAL(clicked()), this,
                               SLOT(chkChanged()));
@@ -28,8 +28,8 @@ Widget::Widget(QWidget *parent)
         ypos += 40;
     }
 
-    chk_group[0]->setExclusive(false);
-    chk_group[1]->setExclusive(true);
+    chk_group[0]->setExclusive(true);
+    chk_group[1]->setExclusive(false);
 
     exclusive[0]->setIcon(QIcon(":resources/browser.png"));
     exclusive[1]->setIcon(QIcon(":resources/calendar.png"));
