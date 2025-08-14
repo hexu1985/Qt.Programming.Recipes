@@ -6,6 +6,7 @@
 - [Hello Qt](getting_started/hello_qt)
 - [建立连接](getting_started/making_connections)
 - [窗口部件的布局](getting_started/laying_out_widgets)
+- [控制台程序](getting_started/console_program)
 
 ### [窗件和设计师](widgets_and_designer)
 - [设计师简介](widgets_and_designer/designer_introduction)
