@@ -49,6 +49,8 @@
 - [用QPainter绘图](2d_graphics/painting_with_qpainter)
 - [坐标系统变换](2d_graphics/coordinate_system_transformations)
 
+### [多线程](multithreading)
+- [创建线程](multithreading/creating_threads)
 
 ### Ubuntu24.04 apt 安装 Qt6
 
