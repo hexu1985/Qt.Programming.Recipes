@@ -2,7 +2,7 @@
 #include <QTextStream>
 
 QTextStream cout(stdout);  /* Define QTextStreams that look like C++ 
-                            standard iostreams. */
+                              standard iostreams. */
 QTextStream cin(stdin);
 
 int main() {
