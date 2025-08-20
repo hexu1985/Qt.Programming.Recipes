@@ -1,4 +1,4 @@
-## 内置的窗口部件
+## 内置的窗口部件和对话框类
 
 - [按钮窗口部件](button_widgets)
 - [单页容器窗口部件](single_page_container_widgets)

@@ -17,7 +17,7 @@
 - [快速设计对话框](creating_dialogs/rapid_dialog_design)
 - [改变形状的对话框](creating_dialogs/shape_changing_dialogs)
 
-### [内置的窗口部件](built_in_widgets_and_dialogs)
+### [内置的窗口部件和对话框类](built_in_widgets_and_dialogs)
 - [按钮窗口部件](built_in_widgets_and_dialogs/button_widgets)
 - [单页容器窗口部件](built_in_widgets_and_dialogs/single_page_container_widgets)
 - [多页容器窗口部件](built_in_widgets_and_dialogs/multi_page_container_widgets)
@@ -25,6 +25,7 @@
 - [输入窗口部件](built_in_widgets_and_dialogs/input_widgets)
 - [辅助窗口部件](built_in_widgets_and_dialogs/utility_widgets)
 - [项视图窗口部件](built_in_widgets_and_dialogs/item_view_widgets)
+- [标准对话框](built_in_widgets_and_dialogs/standard_dialogs)
 
 ### [创建自定义窗口部件](creating_custom_widgets)
 - [自定义Qt窗口部件](creating_custom_widgets/customizing_qt_widgets)
