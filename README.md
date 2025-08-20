@@ -53,6 +53,7 @@
 
 ### [多线程](multithreading)
 - [创建线程](multithreading/creating_threads)
+- [同步线程](multithreading/synchronizing_threads)
 
 ### Ubuntu24.04 apt 安装 Qt6
 
