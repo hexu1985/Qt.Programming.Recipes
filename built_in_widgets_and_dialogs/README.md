@@ -7,5 +7,6 @@
 - [输入窗口部件](input_widgets)
 - [辅助窗口部件](utility_widgets)
 - [项视图窗口部件](item_view_widgets)
+- [标准对话框](standard_dialogs)
 
 
